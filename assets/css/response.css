@@ -1,4 +1,8 @@
 @media (max-width: 768px) {
+  body {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
   header {
     max-width: 100%;
     display: block;
@@ -203,10 +207,10 @@
     justify-content: start;
     align-items: start;
   }
-  .image-overview img {
-    margin-top: 48px;
-    width: 619px;
-    height: 530px;
+  .overview .image-overview img {
+    margin-top: 230px;
+    width: 396px;
+    height: 255px;
   }
   .budget-control {
     display: flex;
@@ -670,6 +674,9 @@
   }
 }
 @media (max-width: 428px) {
+  main {
+    margin: 0 auto;
+  }
   header {
     max-width: 100%;
     display: block;
@@ -717,7 +724,8 @@
     height: 70px;
   }
   .cta-button {
-    width: 350px;
+    margin: 0 auto;
+    max-width: 350px;
     height: 68px;
     font-size: 32px;
   }
@@ -874,10 +882,10 @@
     justify-content: start;
     align-items: start;
   }
-  .image-overview img {
-    margin-top: 48px;
-    width: 619px;
-    height: 530px;
+  .overview .image-overview img {
+    margin-top: 200px;
+    width: 396px;
+    height: 255px;
   }
   .budget-control {
     display: flex;
@@ -934,10 +942,9 @@
   }
   .feature-card {
     background-color: #151517;
-    width: 350px;
+    width: 320px;
     height: 298px;
     border-radius: 8px;
-    margin: 15px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
@@ -950,10 +957,15 @@
     margin: 0 auto;
   }
   .feature-title {
-    margin-left: 38px;
+    margin-left: 10px;
     font-size: 32px;
     margin-top: 48px;
     margin-bottom: 27px;
+  }
+  .feature-description {
+    max-width: 400px;
+    margin-left: 10px;
+    font-size: 24px;
   }
   .feedback {
     max-width: 396px;
@@ -967,7 +979,7 @@
     display: none;
   }
   .cta-button-manag {
-    width: 350px;
+    max-width: 350px;
     font-size: 32px;
     height: 68px;
     display: flex;
