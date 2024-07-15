@@ -710,7 +710,7 @@ header .auth .get-started {
 .left-content {
   max-width: 800px;
   margin-right: 140px;
-  margin-left: 240px;
+  margin-left: 140px;
 }
 .help-mobile {
   display: none;
@@ -759,7 +759,7 @@ header .auth .get-started {
   background-color: #151517;
   border-radius: 10px;
   height: 400px;
-  width: 350px;
+  max-width: 350px;
   padding: 68px 24px;
   color: #fff;
 }
