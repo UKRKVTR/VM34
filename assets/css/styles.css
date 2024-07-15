@@ -131,11 +131,16 @@ header .auth .get-started {
 .cta-button-manag {
   display: none;
 }
+.dashboard-block {
+  max-width: 1900px;
+  margin: 0 auto;
+  overflow: hidden;
+}
 .dashboard {
-  max-width: 1800px;
+  max-width: 2000px;
   height: 800px;
   width: 100%;
-  margin: 0 auto 270px;
+  margin: 0 20px 270px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
