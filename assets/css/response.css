@@ -917,8 +917,8 @@
     align-items: start;
   }
   .overview .image-overview img {
-    margin-top: 200px;
-    width: 396px;
+    margin-top: 230px;
+    max-width: 350px;
     height: 255px;
   }
   .budget-control {
@@ -928,25 +928,26 @@
     margin: 0 auto;
   }
   .info-overview {
-    max-width: 396px;
+    max-width: 380px;
     margin-left: 0;
     height: 300px;
     padding: 0;
   }
   .info-overview h2 {
-    width: 390px;
+    max-width: 380px;
     font-size: 38px;
     line-height: 38px;
     font-weight: 500;
     text-align: center;
   }
   .info-overview p {
-    width: 390px;
+    max-width: 380px;
     font-size: 24px;
+    margin: 0 auto;
   }
   .image-overview img {
     margin-top: 30px;
-    width: 396px;
+    max-width: 350px;
     height: 255px;
   }
   .main-features {
@@ -1055,10 +1056,11 @@
     font-size: 38px;
   }
   .testimonial-card {
+    max-width: 350px;
     padding: 8px;
   }
   .testimonial-text {
-    max-width: 370px;
+    max-width: 350px;
     font-size: 24px;
     padding-top: 42px;
     margin-bottom: 0;
@@ -1077,13 +1079,13 @@
     margin: 48px auto;
   }
   .image-section {
-    max-width: 390px;
+    max-width: 350px;
     width: 100%;
     margin: 0 auto;
   }
   .image-section img {
     border-radius: 8px;
-    max-width: 396px;
+    max-width: 390px;
     height: 413px;
   }
   .image-section .overlay {
@@ -1125,8 +1127,8 @@
     text-align: center;
   }
   .task-section p {
-    max-width: 396px;
-    font-size: 22px;
+    max-width: 350px;
+    font-size: 6vw;
   }
   .task-item {
     flex-direction: column;
@@ -1137,7 +1139,7 @@
   }
   .task-item .task-description {
     max-width: 380px;
-    font-size: 22px;
+    font-size: 6vw;
   }
   .help {
     display: none;
@@ -1188,8 +1190,8 @@
   .card {
     border-radius: 8px;
     height: 298px;
-    width: 350px;
-    padding: 32px;
+    max-width: 350px;
+    padding: 32px 0 32px 32px;
   }
   .card img {
     width: 36px;
@@ -1234,27 +1236,27 @@
     margin: 92px auto;
   }
   .members .left-content {
-    margin-right: 0;
     max-width: 396px;
+    margin: 0 auto;
   }
   .members .left-content h2 {
-    max-width: 396px;
-    font-size: 38px;
+    max-width: 380px;
+    font-size: 10vw;
   }
   .members .left-content p {
-    max-width: 396px;
-    font-size: 22px;
+    max-width: 380px;
+    font-size: 7vw;
   }
   .members .left-content .sub-text {
     border-left: 1px #ffffff00 solid;
     padding-left: 0;
     max-width: 380px;
-    font-size: 18px;
+    font-size: 5vw;
     margin-top: 50px;
   }
   .members .right-content {
     display: block;
-    max-width: 396px;
+    max-width: 390px;
     position: relative;
   }
 
