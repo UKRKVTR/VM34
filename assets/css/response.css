@@ -1,8 +1,4 @@
 @media (max-width: 768px) {
-  body {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
   header {
     max-width: 100%;
     display: block;
@@ -63,56 +59,69 @@
     justify-content: center;
     margin-bottom: 48px;
   }
+
   .budget-spent,
   .stats,
   .target {
     margin: 0;
   }
+
   .budget-spent,
   .payment {
-    width: 170px;
+    max-width: 170px;
     height: 178px;
     border-radius: 8px;
   }
+
   .stats {
     grid-area: stats;
     flex-direction: row;
   }
+
   .budget-spent {
     grid-area: budget;
   }
+
   .target {
     grid-area: target;
     border-radius: 8px;
     margin-bottom: 18px;
   }
+
   .payment {
     grid-area: payment;
   }
+
   .circle-chart img {
     padding-top: 15px;
     width: 100px;
   }
+
   .dashboard-mobile h2 {
     margin: 0;
     font-size: 19px;
   }
+
   .budget-stats {
     font-size: 10px;
     width: 90px;
   }
+
   .budget-price {
     font-size: 14px;
   }
+
   .budget-info {
     padding-top: 15px;
     gap: 32px;
   }
+
   .target {
     padding: 0 12px;
     width: 186px;
     height: 66px;
   }
+
   .target h2 {
     font-size: 20px;
     margin: 20px 0 0;
@@ -121,27 +130,33 @@
   .target p {
     font-size: 8px;
   }
+
   .stats {
     margin-top: 18px;
     gap: 20px;
   }
+
   .clients,
   .orders {
     border-radius: 8px;
     width: 84px;
     padding: 4px;
   }
+
   .stats .clients h2,
   .stats .orders h2 {
     font-size: 20px;
   }
+
   .stats .clients p,
   .stats .orders p {
     font-size: 10px;
   }
+
   .payment-info {
     font-size: 14px;
   }
+
   .payment-info p {
     font-size: 10px;
     margin: 0;
@@ -150,18 +165,22 @@
   .payment ul li {
     padding: 0;
   }
+
   .payment ul li img {
     width: 24px;
     height: 24px;
     padding: 8px;
   }
+
   .price {
     margin-left: 20px;
   }
+
   .price span,
   .price-face span {
     font-size: 10px;
   }
+
   .price-face {
     margin-left: 8px;
   }
@@ -674,9 +693,6 @@
   }
 }
 @media (max-width: 428px) {
-  main {
-    margin: 0 auto;
-  }
   header {
     max-width: 100%;
     display: block;
@@ -724,19 +740,35 @@
     height: 70px;
   }
   .cta-button {
+    display: block;
     margin: 0 auto;
+    width: 80vw;
     max-width: 350px;
-    height: 68px;
-    font-size: 32px;
+    min-width: 200px;
+    height: 10vw;
+    max-height: 68px;
+    min-height: 40px;
+    font-size: 5vw;
+    max-font-size: 32px;
+    min-font-size: 16px;
+    padding: 8px;
+    text-align: center;
+    background-color: #e4bde4;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    line-height: 1.5;
+    transition: all 0.3s ease;
   }
   .dashboard {
     display: none;
   }
   .dashboard-mobile {
-    margin-top: 48px;
+    max-width: 396px;
+    margin: 48px auto;
     display: flex;
     justify-content: center;
-    margin-bottom: 48px;
   }
   .budget-spent,
   .stats,
@@ -745,7 +777,7 @@
   }
   .budget-spent,
   .payment {
-    width: 170px;
+    max-width: 170px;
     height: 178px;
     border-radius: 8px;
   }
@@ -763,10 +795,12 @@
   }
   .payment {
     grid-area: payment;
+    padding-left: 5px;
+    padding-top: 5px;
   }
   .circle-chart img {
     padding-top: 15px;
-    width: 100px;
+    max-width: 100px;
   }
   .dashboard-mobile h2 {
     margin: 0;
@@ -774,7 +808,7 @@
   }
   .budget-stats {
     font-size: 10px;
-    width: 90px;
+    max-width: 90px;
   }
   .budget-price {
     font-size: 14px;
@@ -784,8 +818,8 @@
     gap: 32px;
   }
   .target {
-    padding: 0 12px;
-    width: 186px;
+    padding: 0;
+    max-width: 186px;
     height: 66px;
   }
   .target h2 {
@@ -798,12 +832,12 @@
   }
   .stats {
     margin-top: 18px;
-    gap: 20px;
+    gap: 10px;
   }
   .clients,
   .orders {
     border-radius: 8px;
-    width: 84px;
+    max-width: 84px;
     padding: 4px;
   }
   .stats .clients h2,
@@ -826,7 +860,7 @@
     padding: 0;
   }
   .payment ul li img {
-    width: 24px;
+    max-width: 24px;
     height: 24px;
     padding: 8px;
   }
@@ -841,7 +875,7 @@
     margin-left: 8px;
   }
   .first-block {
-    margin-right: 5px;
+    margin-right: 15px;
   }
   .gather-fun {
     margin-top: 48px;
@@ -979,10 +1013,26 @@
     display: none;
   }
   .cta-button-manag {
+    display: block;
+    margin: 0 auto;
+    width: 80vw;
     max-width: 350px;
-    font-size: 32px;
-    height: 68px;
-    display: flex;
+    min-width: 200px;
+    height: 10vw;
+    max-height: 68px;
+    min-height: 40px;
+    font-size: 5vw;
+    max-font-size: 32px;
+    min-font-size: 16px;
+    padding: 8px;
+    text-align: center;
+    background-color: #e4bde4;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    line-height: 1.5;
+    transition: all 0.3s ease;
   }
   .feedback {
     display: none;
