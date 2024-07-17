@@ -931,6 +931,7 @@
     max-width: 396px;
     margin-left: 0;
     height: 300px;
+    padding: 0;
   }
   .info-overview h2 {
     width: 390px;
@@ -1146,7 +1147,7 @@
     max-width: 396px;
   }
   .left-content {
-    max-width: 396px;
+    max-width: 300px;
     margin-right: 0;
     margin-left: 0;
   }
@@ -1297,12 +1298,12 @@
     margin-bottom: 10px;
   }
   .next-features {
-    margin-top: 32px;
+    margin-top: 5px;
   }
   .container-mobile h2 {
     font-size: 42px;
     max-width: 396px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .container-mobile p {
     color: black;
@@ -1338,8 +1339,8 @@
     flex-direction: column;
     align-items: center;
     max-width: 350px;
-    margin: 0 auto;
-    padding: 0 20px;
+    /* margin: 0 auto; */
+    padding: 0 5px;
     text-align: center;
   }
 
